@@ -1,0 +1,142 @@
+
+html {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    width: 1200px;
+    justify-content: center;
+    margin: 0;
+}
+
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    margin-top: 0;
+    z-index: 10;
+    position: fixed;
+    width: 1200px;
+    background-color: black;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-flex;
+    text-decoration: underline;
+    padding: 0.80rem;
+    float: right;
+}
+
+.top{
+    background-image: url('images/img-mission-background.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-left: 10px;    
+    padding-top: 300px; 
+}
+
+#cap{
+    background-color: black;
+    color: white;
+    width: 1200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.images {
+    margin-top: 150px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 90px;
+}
+.images img{
+    width: 300px;
+    height: 200px;
+    /* display: inline-block; */
+}
+
+/* .realimage img{ */
+    /* display: inline-flex;
+    align-content:space-around; */
+    /* flex-wrap: wrap; */
+    /* width: 1200px; */
+    /* flex-direction: row; */
+/* } */
+
+/* figcaption {
+    margin-top: 10px;
+    display: block !important;
+} */
+
+.imagetop{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.imagebottom {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.figtop{
+    display: flex;
+    justify-content: space-around;}
+
+.figbot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom {
+    background-image: url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px ;
+    height: 500px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.bot div {
+    display: inline-block;
+    background-color: black;
+    z-index: 1;
+    opacity: 1;
+    width: 300px;
+    align-content: center;
+}
+
+.bottom {
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+#bayside {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+#copyright {
+    float: left;
+    margin-left: 20px;
+}
